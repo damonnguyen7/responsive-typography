@@ -1,0 +1,109 @@
+body {
+  background-color: #DADFE1;
+}
+
+.title-container {
+  margin-top: 15px;
+}
+
+.content, .title-container {
+  background-color: #FFFFFF;
+  font-family: "Minion-Pro-1", "Minion-Pro-2", Georgia, "Times New Roman", serif;
+}
+
+.content {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.dtoplg, .desktop, .tablg, .tabsm, .phone {
+   color: #EEEEEE;
+   text-shadow: .5px .5px black;
+   height: 50px;
+   font-family: "Minion-Pro-1", "Minion-Pro-2", Georgia, "Times New Roman", serif;
+   font-size: 1.5em;
+   line-height: 2.2em;
+}
+
+//screen size key: colors
+.desktopl {
+  background-color: #C0392B;
+  color: #EEEEEE;
+  text-shadow: 1px 1px black;
+}
+
+.dtoplg {
+   background-color: #C0392B;
+}
+
+.desktop {
+  background-color: #446CB3;
+}
+
+.tablg {
+  background-color: #87D37C;
+}
+
+.tabsm {
+  background-color: #F39C12;
+}
+
+.phone {
+  background-color: #BE90D4;
+}
+
+.block-status {
+  display: inline-block;
+  background-color: #446CB3;
+  height: 40px; 
+  width: 40px;
+}
+
+
+@media screen and (min-width: 1279px) {
+  .block-status {
+    background-color: #C0392B;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .block-status {
+    background-color: #446CB3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .block-status {
+    background-color: #87D37C;
+  }
+  .content {
+    font-size: 1.35em;
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .block-status {
+    background-color: #F39C12;
+  }
+  .content {
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .block-status {
+    background-color: #BE90D4;
+  }
+  .content {
+    font-size: 1em;
+    line-height: 1.25em;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}

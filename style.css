@@ -236,3 +236,16 @@ body {
     text-indent: 30px;
   }
 }
+
+.paragraph-bjj {
+  font-family: 'Tangerine', serif;
+  font-size: 30px;
+}
+
+.paragraph-funk {
+  font-family: 'UnifrakturCook', cursive;
+}
+
+.paragraph-hiphop {
+  font-family: 'Roboto', sans-serif;
+}
